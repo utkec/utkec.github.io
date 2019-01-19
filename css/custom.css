@@ -1,6 +1,36 @@
-body {
-  color: #343434;
+/* START Toggling Between Light and Dark Mode */
+body.dark-mode {
+  background-color: #343434;
+  color: #eee;
+  transition: 1s;
 }
+body.dark-mode a {
+  color: #eee;
+  text-decoration: none;
+  transition: 1s;
+}
+body.dark-mode button {
+  background-color: #343434;
+  color: #111;
+  transition: 1s;
+}
+
+body.light-mode {
+  background-color: #eee;
+  color: #343434;
+  transition: 1s;
+}
+body.light-mode a {
+  color: #343434;
+  text-decoration: none;
+  transition: 1s;
+}
+body.light-mode button {
+  background-color: #111;
+  color: #343434;
+  transition: 1s;
+}
+/* END Toggling Between Light and Dark Mode */
 
 .title-main {
   font-weight: lighter;
