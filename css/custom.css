@@ -1,0 +1,31 @@
+body {
+  color: #343434;
+}
+
+.title-main {
+  font-weight: lighter;
+  text-align: right;
+}
+
+.gap {
+  margin-top: 5em;
+}
+
+.nav {
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
+
+.horiz-align {
+  display: block;
+  margin: auto;
+}
+
+.portfolio {
+  margin-top: 10em;
+}
+
+.title {
+  font-weight: normal;
+  margin-bottom: 1em;
+}
