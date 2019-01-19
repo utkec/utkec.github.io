@@ -50,6 +50,7 @@ body.light-mode button {
   margin-bottom: 1em;
 }
 
+
 .horiz-align {
   display: block;
   margin: auto;
@@ -68,8 +69,21 @@ body.light-mode button {
   font-weight: lighter;
 }
 
-#contacts {
-  
+
+@media only screen and (max-width: 577px) {
+  .center {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-center {
+    text-align: center;
+  }
+}
+
+.sm-center {
+  text-align: center;
 }
 
 /*---------------------------------------
