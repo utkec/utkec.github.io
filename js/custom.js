@@ -12,5 +12,5 @@ $('#mode').on('click', function(){
 $('.scroll').click(function(){
   $('html body').animate({
 scrollTop: $(".contact7").offset().top
-}, 800);
+}, 900, "easeInOutSine");
 });
