@@ -163,11 +163,3 @@ body.light-mode button {
 .contact7 .contact7-bottom i {
 	margin-right: 5px;
 }
-
-@media only screen and (max-width: 420px){
-	.contact7 .contact7-form {
-		border: 5px solid #548ce9;
-		border-radius: 0%;
-		padding: 10px 10px 10px 10px;
-	}
-}
