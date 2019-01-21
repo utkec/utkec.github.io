@@ -10,7 +10,7 @@ $('#mode').on('click', function(){
 });
 
 $('.scroll').click(function(){
-  $('html body').animate({
+  $('html, body').animate({
 scrollTop: $(".contact7").offset().top
 }, 900, "easeInOutSine");
 });

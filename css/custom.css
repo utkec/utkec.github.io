@@ -1,4 +1,9 @@
+body {
+    overflow:visible;
+}
+
 /* START Toggling Between Light and Dark Mode */
+
 body.dark-mode {
   background-color: #343434;
   color: #eee;
