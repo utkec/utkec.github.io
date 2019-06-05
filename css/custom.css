@@ -2,6 +2,15 @@ body {
     overflow:visible;
 }
 
+.divider {
+  height: 1px;
+  width:100%;
+  display:block; /* for use on default inline elements like span */
+  margin: 9px 0;
+  overflow: hidden;
+  background-color: #3a3a3a;
+}
+
 /* START Toggling Between Light and Dark Mode */
 
 body.dark-mode {
