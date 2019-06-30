@@ -74,6 +74,10 @@ body.light-mode button {
   text-align: center;
 }
 
+.grey-text {
+  opacity: .4;
+}
+
 .portfolio {
   margin-top: 10em;
 }
