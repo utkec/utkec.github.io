@@ -70,6 +70,10 @@ body.light-mode button {
   margin: auto;
 }
 
+.text-cetner {
+  text-align: center;
+}
+
 .portfolio {
   margin-top: 10em;
 }
