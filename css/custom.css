@@ -2,49 +2,49 @@ body {
     overflow:visible;
 }
 
-.divider {
-  height: 1px;
-  width:100%;
-  display:block; /* for use on default inline elements like span */
-  margin: 9px 0;
-  overflow: hidden;
-  background-color: #3a3a3a;
+body a {
+  color: #000;
 }
 
-/* START Toggling Between Light and Dark Mode */
-
-body.dark-mode {
-  background-color: #343434;
-  color: #eee;
-  transition: 1s;
-}
-body.dark-mode a {
-  color: #eee;
+body a:hover {
   text-decoration: none;
-  transition: 1s;
-}
-body.dark-mode button {
-  background-color: #343434;
-  color: #111;
-  transition: 1s;
+  color: #000;
 }
 
-body.light-mode {
-  background-color: #eee;
-  color: #343434;
-  transition: 1s;
+.navbar-brand {
+  color: #FFF;
 }
-body.light-mode a {
-  color: #343434;
-  text-decoration: none;
-  transition: 1s;
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #FFF;
 }
-body.light-mode button {
-  background-color: #111;
-  color: #343434;
-  transition: 1s;
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+  color: #FFF;
 }
-/* END Toggling Between Light and Dark Mode */
+
+.navbar-light .navbar-nav .nav-link {
+  color: #FFF;
+}
+
+.navbar {
+  background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+  padding: 0rem 1rem
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
 .title-main {
   font-weight: lighter;
@@ -57,6 +57,18 @@ body.light-mode button {
 
 .gap {
   margin-top: 5em;
+}
+
+.gap-small {
+  margin-top: 1em;
+}
+
+.gap-side-r {
+  padding-right: .5em;
+}
+
+.gap-side-l {
+  padding-left: .5em;
 }
 
 .nav {
@@ -188,4 +200,32 @@ body.light-mode button {
 
 .space {
   margin-right: 1em;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.white {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #FFF;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #FFF;
+}
+
+.off-white {
+  background-color: #FAFAFA;
+}
+
+.boxtest {
+  height: 500px;
 }
