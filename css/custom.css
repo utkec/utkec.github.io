@@ -11,6 +11,7 @@ body a:hover {
   color: #000;
 }
 
+/* NavBar */
 .navbar-brand {
   color: #FFF;
 }
@@ -46,15 +47,9 @@ body a:hover {
 	}
 }
 
-.title-main {
-  font-weight: lighter;
-  text-align: right;
-}
+/* /NavBar */
 
-.color {
-  color: #FF6D70;
-}
-
+/* Main content */
 .gap {
   margin-top: 5em;
 }
@@ -86,22 +81,7 @@ body a:hover {
   text-align: center;
 }
 
-.grey-text {
-  color: #b8b8b8;
-}
 
-.portfolio {
-  margin-top: 10em;
-}
-
-.title {
-  font-weight: normal;
-  margin-bottom: 1em;
-}
-
-.contact-form {
-  font-weight: lighter;
-}
 
 
 @media only screen and (max-width: 577px) {
@@ -123,6 +103,10 @@ body a:hover {
 /*---------------------------------------
   Contact section
 -----------------------------------------*/
+
+.contact-form {
+  font-weight: lighter;
+}
 
 .contact7 {
 	margin-top: 60px;
@@ -224,6 +208,7 @@ body a:hover {
 
 .off-white {
   background-color: #FAFAFA;
+  width: 1000px;
 }
 
 .boxtest {
