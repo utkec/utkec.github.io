@@ -207,11 +207,185 @@ body a:hover {
   color: #FFF;
 }
 
-.off-white {
-  background-color: #FAFAFA;
-  width: 1000px;
+
+
+body.dark-mode {
+  background-color: #343434;
+  color: #eee;
+  transition: 1s;
+}
+body.dark-mode a {
+  color: #eee;
+  text-decoration: none;
+  transition: 1s;
+}
+body.dark-mode button {
+  background-color: #343434;
+  color: #111;
+  transition: 1s;
 }
 
-.boxtest {
-  height: 500px;
+body.light-mode {
+  background-color: #eee;
+  color: #343434;
+  transition: 1s;
+}
+body.light-mode a {
+  color: #343434;
+  text-decoration: none;
+  transition: 1s;
+}
+body.light-mode button {
+  background-color: #111;
+  color: #343434;
+  transition: 1s;
+}
+/* END Toggling Between Light and Dark Mode */
+
+.title-main {
+  font-weight: lighter;
+  text-align: right;
+}
+
+.color {
+  color: #FF6D70;
+}
+
+.gap {
+  margin-top: 5em;
+}
+
+.nav {
+  font-weight: lighter;
+  margin-bottom: 1em;
+}
+
+
+.horiz-align {
+  display: block;
+  margin: auto;
+}
+
+.text-cetner {
+  text-align: center;
+}
+
+.grey-text {
+  color: #b8b8b8;
+}
+
+.portfolio {
+  margin-top: 10em;
+}
+
+.title {
+  font-weight: normal;
+  margin-bottom: 1em;
+}
+
+.contact-form {
+  font-weight: lighter;
+}
+
+
+@media only screen and (max-width: 577px) {
+  .center {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-center {
+    text-align: center;
+  }
+}
+
+.sm-center {
+  text-align: center;
+}
+
+/*---------------------------------------
+  Contact section
+-----------------------------------------*/
+
+.contact7 {
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.contact7 h1 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-weight: 700;
+	font-size: 40px;
+	text-transform: capitalize;
+}
+
+.contact7 h3 {
+	font-size: 20px;
+	text-transform: lowercase;
+	font-style: italic;
+}
+
+.contact7 .contact7-form {
+	margin-top: 50px;
+	margin-bottom: 100px;
+	overflow: hidden;
+
+	border-radius: 10%;
+	padding: 30px 30px 30px 30px;
+}
+
+.contact7 .contact7-form form {
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.contact7 .contact7-form .form-control {
+	background: transparent;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.contact7 .contact7-form .btn-default {
+	background-color: #FF6D70;
+	color: #fff;
+	border-radius: 0;
+}
+
+.contact7 .contact7-form .btn-default:hover {
+	background-color: #FF6D70;
+	color: #fff;
+	border-radius: 0;
+}
+
+.contact7 .contact7-bottom {
+	background-color: #f5f5f5;
+}
+
+.contact7 .contact7-bottom h2 {
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+
+.contact7 .contact7-bottom p {
+	font-size: 17px;
+}
+
+.contact7 .contact7-bottom a {
+	text-decoration: none;
+}
+
+.contact7 .contact7-bottom i {
+	margin-right: 5px;
+}
+
+.space {
+  margin-right: 1em;
+}
+
+.right-align {
+  text-align: right;
 }
